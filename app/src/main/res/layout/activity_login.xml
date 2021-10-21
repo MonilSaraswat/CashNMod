@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="#940305"
     tools:context="com.appsbymonil.cashnmod.Login">
 
@@ -17,14 +17,14 @@
         android:layout_marginTop="17dp" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_below="@id/imageView"
         android:orientation="vertical">
 
   <!--      <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
             android:textSize="40dp"
@@ -34,14 +34,14 @@
 -->
 
     <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         >
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/username"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="User Name"
             android:layout_marginTop="25dp"
@@ -53,7 +53,7 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:passwordToggleEnabled="true"
         >
@@ -62,7 +62,7 @@
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/password"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="25dp"
@@ -72,7 +72,7 @@
             android:maxLines="1" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/linear"
             android:layout_marginTop="10dp"
@@ -80,7 +80,7 @@
             android:weightSum="1">
 
             <RelativeLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/lay"
                 >
@@ -100,7 +100,7 @@
     </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#000000"
             android:textSize="1dp"
@@ -109,7 +109,7 @@
             android:layout_marginRight="20dp"/>
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Not Register yet ? Register Now.."
